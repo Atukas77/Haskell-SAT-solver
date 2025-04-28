@@ -33,7 +33,7 @@ Because the project is fully functional (pure functions only) and does not inclu
 
    ```haskell
    checkSAT (Equiv (Prop "q") (Or [Const False, Not (Prop "r")]))
-   -- Output: "SAT with [r,~q]"
+   -- Output: "SAT with [~q,r]"
    ```
 
 ### Output Interpretation
